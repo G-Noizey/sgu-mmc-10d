@@ -5,7 +5,7 @@ pipeline {
         stage('Parando los servicios...') {
             steps {
                 bat '''
-                    docker compose -p sgu-jamv-10d down || exit /b 0
+                    docker compose -p sgu-mmc-10d down || exit /b 0
                 '''
             }
         }
