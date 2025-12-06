@@ -1,0 +1,68 @@
+/* Tarjetas modernas */
+.card-modern {
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card-modern-header {
+  background: linear-gradient(135deg, #4c6ef5, #15aabf);
+  color: white;
+  padding: 18px;
+}
+
+.card-modern-body {
+  padding: 24px;
+}
+
+/* Inputs más modernos */
+.input-modern {
+  border-radius: 12px !important;
+  padding: 10px 14px !important;
+  border: 2px solid #e0e0e0 !important;
+  transition: 0.2s;
+}
+
+.input-modern:focus {
+  border-color: #4c6ef5 !important;
+  box-shadow: 0 0 5px rgba(76, 110, 245, 0.3);
+}
+
+/* Botón principal */
+.btn-main {
+  background: #4c6ef5;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  padding: 12px;
+}
+
+.btn-main:hover {
+  background: #3b5bdb;
+}
+
+/* Botón edit personalizado */
+.btn-edit {
+  background: #f59f00;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  padding: 12px;
+}
+
+.btn-edit:hover {
+  background: #e67700;
+}
+
+/* Tabla moderna */
+.table-header-gradient {
+  background: linear-gradient(135deg, #212529, #495057);
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
